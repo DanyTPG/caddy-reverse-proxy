@@ -1,2 +1,7 @@
 FROM caddy:alpine
-CMD /bin/sh run.sh
+
+COPY run.sh /run.sh
+
+RUN chmod +x /run.sh
+
+CMD /run.sh
