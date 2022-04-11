@@ -2,6 +2,12 @@
     "name": "caddy-reverse-proxy",
     "description": "create a reverse proxy for any website",
     "keywords": ["caddy"],
+    "env": {
+        "HOST": {
+            "description": "Enter the website's full URL. example: https://github.com",
+            "value": ""
+        }
+    },
     "repository": "https://github.com/DanyTPG/caddy-reverse-proxy",
     "stack": "container"
 }
