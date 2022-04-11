@@ -1,0 +1,7 @@
+{
+    "name": "caddy-reverse-proxy",
+    "description": "create a reverse proxy for any website",
+    "keywords": ["caddy"],
+    "repository": "https://github.com/DanyTPG/caddy-reverse-proxy",
+    "stack": "container"
+}
